@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) /*TABLET*/ {
     body {
         background-image: linear-gradient(to bottom, #095256, #5AAA95);
     }
@@ -9,18 +9,18 @@
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 70%;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) /*GRANDES TELAS*/{
 
     body {
         background-image: linear-gradient(to bottom, #095256, #5AAA95)}
@@ -38,5 +38,13 @@
     #formulario {
         float: right;
         width: 50%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
