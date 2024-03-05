@@ -62,3 +62,56 @@ h1 {
 p {
     font-size: .8em;
 }
+
+.campo {
+    background-color:#073c3f;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #087F8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #095256;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #087F8C;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #073c3f;
+}
+
+.botao:hover {
+    background-color: #5AAA95; 
+    color: #073c3f;
+}
+
+form > a.botao > span {
+    font-size: .8em;
+}
